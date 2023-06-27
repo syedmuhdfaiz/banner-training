@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+main{
+    background-color: #1e1f2f;
+    width: 1611px;
+    height: 936px;
+    
+}
+
+/* flex training box model */
+.container-left {
+    width: 805.5px;
+    height: 936px;
+    position: absolute;
+    border: 1px solid white;
+    
+    
+}
+
+.firstbox{
+    width: 600px;
+    height: 98px;
+    border: 1px solid white;
+    margin: 100px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    
+}
+
+.logobox {
+    width: 92.20px;
+    height: 96px;
+    border: 1px solid burlywood;
+}
+
+.whitebox {
+    background-color: #ffffff;
+    width: 31.06px;
+    height: 27.42px;
+}
+
+.redbox {
+    background-color: #e82c4f;
+    width: 60.47px;
+    height: 68.55px;
+    display: flex;
+    margin: 0px 0px 0px 31px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.r {
+    font-family: Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    
+    
+}
+
+.letterbox {
+    width: 600px;
+    height: 96px;
+    border: 1px solid green;
+    color: #ffffff;
+    padding: 0px 10px;
+    font-size: 80px;
+
+}
+
+.secondbox {
+    width: 600px;
+    height: 400px;
+    border: 1px solid white;
+    color: #ffffff;
+    margin: 0px 100px;
+    font-size: 130px;
+    line-height: 120px;
+    padding: 50px 0px;
+    
+}
+
+
